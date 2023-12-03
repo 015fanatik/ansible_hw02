@@ -16,7 +16,7 @@
 
    
 5. Запустите `ansible-lint site.yml` и исправьте ошибки, если они есть.
-  ![lint](https://github.com/015fanatik/ansible_hw02/screenshots/lint.png.png)
+  ![lint](https://github.com/015fanatik/ansible_hw02/screenshots/lint.png)
 
 6. Попробуйте запустить playbook на этом окружении с флагом `--check`.
    ![check](https://github.com/015fanatik/devops-netology/blob/main/screenshots/check.png)

@@ -14,7 +14,7 @@
 3. При создании tasks рекомендую использовать модули: `get_url`, `template`, `unarchive`, `file`.
 4. Tasks должны: скачать дистрибутив нужной версии, выполнить распаковку в выбранную директорию, установить vector.
 5. Запустите `ansible-lint site.yml` и исправьте ошибки, если они есть.
-  ![lint](https://github.com/015fanatik/ansible_hw02/screenshots/lint.png.png)
+  ![lint](https://github.com/015fanatik/ansible_hw02/blob/main/screenshots/lint.png.png)
 
 6. Попробуйте запустить playbook на этом окружении с флагом `--check`.
    ![check](https://github.com/015fanatik/devops-netology/blob/main/screenshots/check.png)

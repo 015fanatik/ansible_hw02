@@ -1,14 +1,12 @@
 ---
-  el:
-    hosts:
-      nice_wilbur:
-        ansible_connection: docker
-  deb:
-    hosts:
-      beautiful_grothendieck:
-        ansible_connection: docker
+clickhouse:
+  hosts:
+    clickhouse-01:
+      ansible_host: 158.160.124.244
+      ansible_user: centos
 
-  local:
-    hosts:
-      localhost:
-        ansible_connection: local
+vector:
+  hosts:
+    vector-01:
+      ansible_host: 158.160.126.113
+      ansible_user: centos

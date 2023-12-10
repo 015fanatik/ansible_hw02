@@ -1,6 +1,14 @@
 ---
-clickhouse:
-  hosts:
-    clickhouse-01:
-      ansible_host: 62.84.112.5
-      ansible_user: centos
+  el:
+    hosts:
+      nice_wilbur:
+        ansible_connection: docker
+  deb:
+    hosts:
+      beautiful_grothendieck:
+        ansible_connection: docker
+
+  local:
+    hosts:
+      localhost:
+        ansible_connection: local

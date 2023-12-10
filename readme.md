@@ -48,8 +48,8 @@
 В процессе установки будем использовать 
  ```
   -/group_vars  
-      -clickhouse  
-         -vars.yml  
+      /clickhouse
+      /vector   
       -vector.yaml.j2  
   -/invetnory  
       -prod.yml  
